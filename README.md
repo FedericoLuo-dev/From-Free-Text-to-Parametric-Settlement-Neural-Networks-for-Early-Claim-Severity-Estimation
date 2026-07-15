@@ -28,7 +28,3 @@ During the development of this model, two critical phenomena were identified and
 * **Data Processing & ML:** Pandas, NumPy, Scikit-learn (PCA), Text-Embedding
 * **NLP / Embeddings:** Google GenAI API 
 * **Visualization:** Matplotlib, Seaborn
-
-2. Install dependencies: `pip install -r requirements.txt`
-3. Add your API key in the configuration file.
-4. Run the main pipeline: `python main.py`
