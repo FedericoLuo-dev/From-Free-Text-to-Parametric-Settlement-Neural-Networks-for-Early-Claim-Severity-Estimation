@@ -17,7 +17,7 @@ The project follows a complete end-to-end Machine Learning pipeline:
 ###  Deep Neural Network Architecture
 <img width="955" height="240" alt="Deep Neural Network Pipeline" src="https://github.com/user-attachments/assets/98a82dcc-0c8b-401a-b14d-0bb825a531f0" />
 
-## 🔬 Key Insights & Research Findings
+##  Key Insights & Research Findings
 During the development of this model, two critical phenomena were identified and addressed:
 * **The "Lexical Inflation" Phenomenon:** Synthetic data generation can lead to overly dramatic vocabulary for minor damages (e.g., describing hail as "blunt force trauma"). The model successfully highlights the sensitivity of embeddings to these lexical choices.
 * **The Information Bottleneck:** Forcing a low-dimensional output at the API level destroys subtle contextual mitigations, causing the neural network to degrade from a continuous regressor into a rigid classifier. Maintaining high native dimensionality with dynamic PCA proved essential for accurate predictions.
