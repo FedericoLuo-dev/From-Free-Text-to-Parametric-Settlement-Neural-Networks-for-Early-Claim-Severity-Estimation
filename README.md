@@ -22,9 +22,5 @@ During the development of this model, two critical phenomena were identified and
 * **NLP / Embeddings:** Google GenAI API 
 * **Visualization:** Matplotlib, Seaborn
 
-## 🚀 How to Run
-*(Qui potrai inserire i comandi per far girare il tuo codice, ad esempio:)*
-1. Clone the repository: `git clone https://github.com/tuousername/tuo-repo.git`
-2. Install dependencies: `pip install -r requirements.txt`
 3. Add your API key in the configuration file.
 4. Run the main pipeline: `python main.py`
